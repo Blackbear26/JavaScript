@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentos de programacion</title>
+    <!-- 
+   segunda forma de escribir codigo en javascript
+   dnetro de la etiqueta <head></head> colocamos las etiquetas <script></script0> esta forma tienen el incoveniente de si el codigo interactua con algun elemento html marca error por que el elemento no a sido aun colocado 
+    -->
+    <script>
+        console.log("este mensjae es desde el head")
+    </script>
+
+    <!-- 
+tercera forma de escribir codigo javascript
+dentro de la etiqueta <head></head> usampos las etiquetas <script></script> con el tributo SRC "source" esto quierre decir que podemos enlazar un archivo externo para ser leido en html esta es la forma mas habitual de trabajar en JS -->
+
+<script defer src="holamundo.js"></script>
+</head>
+<body>
+    <h1>fundamentos de programacion</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consequatur et, fugiat amet fuga quaerat sapiente, nemo recusandae, assumenda omnis a maiores pariatur nulla quasi voluptatibus tempore aspernatur perspiciatis maxime?</p> 
+
+    <!-- primera forma de escribir javacript
+    dentro de la etiqueta <script> ... codigo ... </scrip
+    escibe el codigo de JS
+
+    esta etiqueta es definida antes de la etiqueta del cierre esto es paraque cuando el codigo interactue con algun elemento del html este ya este cerrado antes de ejecutarinteraciones  -->
+    
+    <script>
+        console.log("mensaje de etiqueta script antes del cierre de lobby")
+    </script>
+</body>
+</html>
