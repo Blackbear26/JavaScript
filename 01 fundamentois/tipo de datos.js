@@ -28,6 +28,14 @@ es el valor que se asigna a una variable
 
 es un conjunto de datos que los almacena en una lista ordenadade elementos los datos dentro de los arreglos se escriben entre corchetes [] y separados por coma ,
 
+*object*
+
+este tipo de dato es un conjunto de multiples pares pares de algo que se llama clave valor se escribe entre llave y separado con comas [],
+
+*funciones*
+
+es un tipo de dato que se invocan con la palabra reservada funtion y con el codigo que ejecuta entre llaves
+
 
 
 */
@@ -44,7 +52,7 @@ console.log(misNumerosDeLaSuerte)
 
 // indefinido
 
-let x ; // declara una variable sin inicializarla
+/* let x ; // declara una variable sin inicializarla */
 
 x = prompt("cual es tu numero favorito?")
 
@@ -73,3 +81,32 @@ let miNumeroDecimal = 1.5
 
 console.log(miNumero);
 console.log(miNumeroDecimal);
+
+//objeto
+
+let persona = {
+//clave : valor
+nombre : "diego",
+edad : "22 años",
+colorCabello : "marron",
+colorOjos : "cafes",
+altura : "1.70",
+peso : undefined,
+vivo : true,
+novia : false,}
+
+console.log(persona)
+//accedemos a los datos de una clave con la notacion de .
+console.log(persona.nombre)
+console.log(persona.altura)
+console.log(persona.novia)
+
+//funcion
+
+let mensajito = function () {
+  //pasamos el codigo que ejecuta la funcion
+  console.log("este es una mensaje lanzado por la funcion")
+}
+
+//invoca las funciones
+mensajito();
