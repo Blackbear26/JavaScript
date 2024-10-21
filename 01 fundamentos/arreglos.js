@@ -112,3 +112,97 @@ let numerosLoteriaQuitado = numerosLoteria.pop();
 console.log(numerosLoteria);
 console.log(numerosLoteriaQuitado);
 
+/* 
+unshift
+
+agrega un elemento al inicio del array
+
+nimbreArray.unshif(elemento)
+*/
+
+console.log(frutasFavoritas);
+frutasFavoritas.unshift("mandarina");
+console.log(frutasFavoritas);
+
+/* 
+shif
+
+elimina el primer elemento del array y lo devuelve
+
+nombreArray.shift();
+
+*/
+
+console.log(numerosLoteria);
+numerosLoteria.shift();
+console.log(numerosLoteria);
+
+/* 
+indexO encuentra el indice de un elemento del array
+
+nombreArray.indexO();
+
+*/
+
+let indice = frutasFavoritas.indexOf("maraculla")
+console.log(indice)
+
+/* 
+splice
+
+elimina
+
+puede eliminar o agregar elementos al array desde una posicion espesifica
+
+nombreArray.splie(indiceDeInicio, indiceFinal)
+
+agregar
+
+nombreArray.splice(indiceInicia, pasos, valor1, valor2, valor3...)
+
+*/
+
+console.log(frutasFavoritas);
+
+frutasFavoritas.splice(1,2)
+
+console.log(frutasFavoritas)
+
+frutasFavoritas.splice(1,0,"fresa","banana")
+
+console.log(frutasFavoritas)
+
+
+/* 
+SLICE
+
+creauna copia de una posicion de array, no modifica el original, se crea un nuevo array
+
+nombreArray.slice(indiceInicio, indiceFinal)
+
+*/
+
+let futascopia = frutasFavoritas.slice(2,5);
+
+console.log(futascopia);
+
+/* 
+sort
+
+ordena los elementos del arrayde mejor manera 
+
+nombreArray.sort() - de primera no pasar datos entre los parentecis 
+
+*/
+
+console.log(frutasFavoritas);
+
+frutasFavoritas.sort();
+
+console.log(frutasFavoritas);
+
+console.log(numerosLoteria);
+
+numerosLoteria.sort();
+
+console.log(numerosLoteria);
