@@ -85,4 +85,4 @@ do {
   do {
     console.log("mi numero es " + menos);
     numero--;
-  } while (numero > 20);
+  } while (numero < 20);
